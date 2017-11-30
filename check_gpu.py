@@ -44,5 +44,5 @@ def standby(gpu_no, standby_sec = 60 * 10, max_sleep_count = 12):
         print('standby GPU ...')
         sleep(standby_sec)
 
-    if n == MAX_N:
+    if n == max_sleep_count:
         print('GPU not available.')
